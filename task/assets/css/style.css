@@ -1,0 +1,47 @@
+*
+{
+    box-sizing: border-box;
+}
+.sign-in-container
+{
+   position: relative;
+    border: 1px solid lightgray;
+    width: 430px;
+    height: 450px;
+    margin: 190px auto auto;
+    border-radius: 8px;
+}
+.sign-in-label
+{
+    user-select: none;
+    position: absolute;
+    top:237px;
+    left:60px;
+    color: lightgray;
+    z-index:99;
+    outline: 0;
+    font-size: 18px;
+    background: white;
+}
+.sign-in-input
+{
+    border: 1px solid darkgrey;
+    border-radius: 4px;
+    position: absolute;
+    top: 220px;
+    right: 37px;
+    height: 55px;
+    width: 350px;
+    outline: 0;
+}
+.sign-in-input:focus
+{
+    border-color: blue;
+    transition: .2s;
+}
+.sign-in-input:focus + .sign-in-label
+{
+
+
+}
+
